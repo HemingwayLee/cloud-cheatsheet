@@ -16,9 +16,12 @@ ElastiCache, Azure Redis Cache,
 # Knowledge
 CloudFormation (Template (in json) -> designer to show the graph -> building actual S3, RDS, EC2, ...)  
 Elastic Load Balancing (Auto Scaling: Add more EC2 (in auto-scaling group) when peak traffic is coming)  
-EC2 - AWS’s backbone  
-AWS Lambda (serverless)  
-ElasticCache Redis (cache implementation)  
+EC2 - AWS’s backbone, ECS is based on EC2 (ECS is basically a logical grouping of EC2 machines/instances)   
+AWS Lambda (serverless), the money is paid by traffic  
+ElasticCache contains Redis and Memcache (cache implementation)  
+
+Container Services (ECS, or ACS) is for running docker instances
+Container Registry is for storing formatted images
 
 API gateway (Resource (Lambda, EC2, ...) + Method (GET, POST, ...) + Deploy)  
 Why: Caching, Versioning, Metering, Throttling, ...  
