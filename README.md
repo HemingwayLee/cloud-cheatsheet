@@ -9,12 +9,12 @@ EKS, Azure Kubernetes Service (AKS),
 Lambda, Azure Functions,  
 AWS Auto Scaling, Virtual Machine Scale Sets,  
 S3, Azure Storage,  
-RDS, SQL Database,  
+RDS, SQL Database (or Azure Database for PostgreSQL),  
 DynamoDB, Cosmos DB,  
 ElastiCache, Azure Redis Cache,  
 
 ## Knowledge
-* `CloudFormatio`n (Template (in json) -> designer to show the graph -> building actual `S3`, `RDS`, `EC2`, ...)  
+* `CloudFormation` (Template (in json) -> designer to show the graph -> building actual `S3`, `RDS`, `EC2`, ...)  
 * `Elastic Load Balancing` (Auto Scaling: Add more `EC`2 (in auto-scaling group) when peak traffic is coming)  
 * `EC2` - AWS’s backbone, `ECS` is based on `EC2` (`ECS` is basically a logical grouping of `EC2` machines/instances)   
 * AWS `Lambda` (serverless), the money is paid by traffic  
@@ -49,6 +49,23 @@ ssh -F /dev/null <user>@<ip>
 
 ### Create VM from sanpshot  
 https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specialized-portal  
+
+## Note
+
+### Azure DevOps
+* `Azure DevOps` is better than `gitlab` + `gitlab-ci`
+* We can create multiple repo and multiple pipeline on a project
+* Both `gitlab-ci` and `Azure DevOps` use yml file for CI\CD
+* Its yml file structure is more complicated than `gitlab-ci`
+  * Run in condition
+  * Run in parallel
+* Test report can be generated with nice GUI
+* Secret variables can be saved at
+  * Repo level
+  * Project level
+  * Azure level (`KeyValut`)
+* Services connection need to be set in order to connect and deploy to Azure
+* Problem: not too many discussion on the stack overflow
 
 ## Ref
 https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services
