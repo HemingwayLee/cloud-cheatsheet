@@ -20,8 +20,8 @@ ElastiCache, Azure Redis Cache,
 * AWS `Lambda` (serverless), the money is paid by traffic  
 * `ElasticCache` contains Redis and Memcache (cache implementation)  
 
-`Azure Container Instance` (`ACI`) is for running docker instances
-`Azure Container Registry` (`ACR`) is for storing formatted images
+`Azure Container Instance` (`ACI`) is for running docker instances  
+`Azure Container Registry` (`ACR`) is for storing formatted images  
 
 `API gateway` (Resource (Lambda, EC2, ...) + Method (GET, POST, ...) + Deploy)  
 Why: Caching, Versioning, Metering, Throttling, ...  
@@ -46,6 +46,9 @@ ssh -F /dev/null <user>@<ip>
 1. ssh via Google web console
 2. Copy the `key.pub` file contents
 3. Append the contents to `~/.ssh/authorized_keys` file
+
+### Create VM from sanpshot  
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specialized-portal  
 
 ## Ref
 https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services
