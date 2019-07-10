@@ -1,6 +1,6 @@
 # cloud-cheatsheet
 
-# Comparison
+## Comparison
 AWS, Azure, Google Cloud  
 EC2, Virtual Machines,  
 ECS, Azure Container Service (ACS),  
@@ -13,26 +13,26 @@ RDS, SQL Database,
 DynamoDB, Cosmos DB,  
 ElastiCache, Azure Redis Cache,  
 
-# Knowledge
-CloudFormation (Template (in json) -> designer to show the graph -> building actual S3, RDS, EC2, ...)  
-Elastic Load Balancing (Auto Scaling: Add more EC2 (in auto-scaling group) when peak traffic is coming)  
-EC2 - AWS’s backbone, ECS is based on EC2 (ECS is basically a logical grouping of EC2 machines/instances)   
-AWS Lambda (serverless), the money is paid by traffic  
-ElasticCache contains Redis and Memcache (cache implementation)  
+## Knowledge
+* `CloudFormatio`n (Template (in json) -> designer to show the graph -> building actual `S3`, `RDS`, `EC2`, ...)  
+* `Elastic Load Balancing` (Auto Scaling: Add more `EC`2 (in auto-scaling group) when peak traffic is coming)  
+* `EC2` - AWS’s backbone, `ECS` is based on `EC2` (`ECS` is basically a logical grouping of `EC2` machines/instances)   
+* AWS `Lambda` (serverless), the money is paid by traffic  
+* `ElasticCache` contains Redis and Memcache (cache implementation)  
 
-Container Services (ECS, or ACS) is for running docker instances
-Container Registry is for storing formatted images
+`Azure Container Instance` (`ACI`) is for running docker instances
+`Azure Container Registry` (`ACR`) is for storing formatted images
 
-API gateway (Resource (Lambda, EC2, ...) + Method (GET, POST, ...) + Deploy)  
+`API gateway` (Resource (Lambda, EC2, ...) + Method (GET, POST, ...) + Deploy)  
 Why: Caching, Versioning, Metering, Throttling, ...  
 API Version 1: for old application  
 API Version 2: for new application  
 
-AWS Redshift: Data warehouse is a system used for reporting and data analysis, and is considered a core component of business intelligence.  
+`AWS Redshift`: Data warehouse is a system used for reporting and data analysis, and is considered a core component of business intelligence.  
 
-# Tips
+## Tips
 
-## ssh (`<user>` is `your_user_name` in GoogleCloud and it is `ubuntu` in AWS)
+### ssh (`<user>` is `your_user_name` in GoogleCloud and it is `ubuntu` in AWS)
 
 ```
 ssh -i ~/.ssh/<my.pem> <user>@<ip>
@@ -47,5 +47,5 @@ ssh -F /dev/null <user>@<ip>
 2. Copy the `key.pub` file contents
 3. Append the contents to `~/.ssh/authorized_keys` file
 
-# Ref
+## Ref
 https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services
