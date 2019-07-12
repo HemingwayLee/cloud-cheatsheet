@@ -28,6 +28,8 @@ Why: Caching, Versioning, Metering, Throttling, ...
 API Version 1: for old application  
 API Version 2: for new application  
 
+`Data Lake` is based on Hadoop
+
 `AWS Redshift`: Data warehouse is a system used for reporting and data analysis, and is considered a core component of business intelligence.  
 
 ## Tips
