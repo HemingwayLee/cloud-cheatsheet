@@ -14,10 +14,16 @@ DynamoDB, Cosmos DB,
 ElastiCache, Azure Redis Cache,  
 
 ## Knowledge
-* `CloudFormation` (Template (in json) -> designer to show the graph -> building actual `S3`, `RDS`, `EC2`, ...)  
+* `CloudFormation` (Template (in json) -> graph editor to show the graph -> building actual `S3`, `RDS`, `EC2`, ...)  
 * `Elastic Load Balancing` (Auto Scaling: Add more `EC`2 (in auto-scaling group) when peak traffic is coming)  
 * `EC2` - AWS’s backbone, `ECS` is based on `EC2` (`ECS` is basically a logical grouping of `EC2` machines/instances)   
-* AWS `Lambda` (serverless), the money is paid by traffic  
+* AWS `Lambda` (serverless), the money is paid by traffic 
+  * Lambda functions are executed in the following orders
+    * an appropriate runtime (nodejs or python) container is started 
+    * code are loaded from `s3`
+  * The container will be paused after execution
+    * Resumed if there are other requests in some amount of time
+    * Deleted if no other request in some amount of time
 * `ElasticCache` contains Redis and Memcache (cache implementation)  
 
 `Azure Container Instance` (`ACI`) is for running docker instances  
