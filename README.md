@@ -77,5 +77,12 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specia
 * Services connection need to be set in order to connect and deploy to Azure
 * Problem: not too many discussion on the stack overflow
 
+### Azure Data Lake (Gen 2)
+
+### Azure Machine Learning Service Workshop
+
+#### Run jupyter note on azure
+#### AutoML
+
 ## Ref
 https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services
