@@ -24,6 +24,7 @@ ElastiCache, Azure Redis Cache,
   * The container will be paused after execution
     * Resumed if there are other requests in some amount of time
     * Deleted if no other request in some amount of time
+  * Disk size, memory, number of files are limited
 * `ElasticCache` contains Redis and Memcache (cache implementation)  
 
 `Azure Container Instance` (`ACI`) is for running docker instances  
