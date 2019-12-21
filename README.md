@@ -39,6 +39,8 @@ API Version 2: for new application
 
 `Data Lake` is based on Hadoop
 
+`Databricks` is base on spark (spark can be bulit on top of `S3` or ``k8s)
+
 `AWS Redshift`: Data warehouse is a system used for reporting and data analysis, and is considered a core component of business intelligence.  
 
 ## Tips
