@@ -12,6 +12,7 @@ S3, Azure Storage,
 RDS, SQL Database (or Azure Database for PostgreSQL),  
 DynamoDB, Cosmos DB,  
 ElastiCache, Azure Redis Cache,  
+AWS CLI, Azure CLI
 
 ## Knowledge
 * `CloudFormation` (Template (in json) -> graph editor to show the graph -> building actual `S3`, `RDS`, `EC2`, ...)  
@@ -76,6 +77,12 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specia
   * Azure level (`KeyValut`)
 * Services connection need to be set in order to connect and deploy to Azure
 * Problem: not too many discussion on the stack overflow
+
+### Azure CLI
+* need to do `az login` first
+  * `az login` does not work with accounts that have 2-factor authentication
+* Azure DevOps provides build-in tasks for Azure CLI
+* `az container create` will not wait for `--command-line` option to complete, so we need to use `az container show` periodically to check if we can do `az container delete`
 
 ### Azure Data Lake (Gen 2)
 
