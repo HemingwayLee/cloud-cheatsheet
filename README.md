@@ -72,12 +72,13 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specia
 * Its yml file structure is more complicated than `gitlab-ci`
   * Run in condition
   * Run in parallel
-* Test report can be generated with nice GUI
+* Test report can be generated with nice GUI which contains iframe (url need to be https) so that we can provide customized charts
 * Secret variables can be saved at
   * Repo level
   * Project level
   * Azure level (`KeyValut`)
 * Services connection need to be set in order to connect and deploy to Azure
+* It seperates CI and CD into `Build Pipeline` and `Release Pipeline`
 * Problem: not too many discussion on the stack overflow
 
 ### Azure CLI
@@ -85,6 +86,7 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specia
   * `az login` does not work with accounts that have 2-factor authentication
 * Azure DevOps provides build-in tasks for Azure CLI
 * `az container create` will not wait for `--command-line` option to complete, so we need to use `az container show` periodically to check if we can do `az container delete`
+* some commands will return JSON, we can use `query` option to parse JSON
 
 ### Azure Data Lake (Gen 2)
 
