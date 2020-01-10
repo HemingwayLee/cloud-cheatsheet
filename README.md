@@ -95,5 +95,12 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specia
 #### Run jupyter note on azure
 #### AutoML
 
+# Private Cloud
+* A lot of company use `OpenStack`
+
+![jp_private_cloud](https://image.itmedia.co.jp/ait/articles/1706/13/l_si_iaas-share-01.jpg)
+
+![jp_private_cloud2](https://it.impressbm.co.jp/mwimgs/d/4/-/img_d45808afbf2230b1b2e9e1e5a779208385215.jpg)
+
 ## Ref
 https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services
