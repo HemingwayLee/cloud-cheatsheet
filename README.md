@@ -2,13 +2,13 @@
 
 ## Comparison
 AWS, Azure, Google Cloud  
-EC2, Virtual Machines,  
+EC2, Virtual Machines,Compute Engine  
 ECS, Azure Container Service (ACS),  
 EC2 Container Registry, Azure Container Registry,  
 EKS, Azure Kubernetes Service (AKS),  
 Lambda, Azure Functions,  
 AWS Auto Scaling, Virtual Machine Scale Sets,  
-S3, Azure Storage,  
+S3, Azure Storage Account,  
 RDS, SQL Database (or Azure Database for PostgreSQL),  
 DynamoDB, Cosmos DB,  
 ElastiCache, Azure Redis Cache,  
@@ -32,16 +32,36 @@ AWS CLI, Azure CLI
 `Azure Container Instance` (`ACI`) is for running docker instances  
 `Azure Container Registry` (`ACR`) is for storing formatted images  
 
-`API gateway` (Resource (Lambda, EC2, ...) + Method (GET, POST, ...) + Deploy)  
+`API gateway` or `API Management` (Resource (Lambda, EC2, ...) + Method (GET, POST, ...) + Deploy)  
 Why: Caching, Versioning, Metering, Throttling, ...  
 API Version 1: for old application  
 API Version 2: for new application  
 
-`Data Lake` is based on Hadoop
+`Data Lake` is based on Hadoop  
 
-`Databricks` is base on spark (spark can be bulit on top of `S3` or ``k8s)
+`Databricks` is base on spark (spark can be bulit on top of `S3` or `k8s`)  
+We can run Notebook on top of `Databricks`  
+We can choose `python`, `R`, or `SQL` with Notebook
 
 `AWS Redshift`: Data warehouse is a system used for reporting and data analysis, and is considered a core component of business intelligence.  
+
+## Load Balancer
+`Azure Load Balancer`: It load-balances traffic at layer 4 (TCP or UDP)  
+`Azure Application Gateway`: It is a layer 7 load balancer  
+
+## Firewall
+`Azure Application Gateway - Web Application Firewall`:  
+* It can be used to do SSL termination
+* It protects you from SQL injection or XSS 
+* This protection uses rules from the [Open Web Application Security Project](https://owasp.org/www-project-top-ten/)   
+
+`Azure Firewall`:   
+* It can be used to limit outbound traffic to a specified list of FQDN including wild cards
+* You can set the rules to allow or deny network access by source and destination IP address, port, and protocol and since the Azure Firewall is fully stateful (L3-L7)
+
+`Azure Network Security Groups (NSG)`:  
+* It allow you to filter traffic to and from your resources in an Azure virtual network  
+* Usually, NSG for VNET, Firewall for public access
 
 ## Tips
 
