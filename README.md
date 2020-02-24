@@ -122,5 +122,8 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specia
 
 ![jp_private_cloud2](https://it.impressbm.co.jp/mwimgs/d/4/-/img_d45808afbf2230b1b2e9e1e5a779208385215.jpg)
 
+## State of DevOps
+https://services.google.com/fh/files/misc/state-of-devops-2019.pdf
+
 ## Ref
 https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services
