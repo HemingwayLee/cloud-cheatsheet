@@ -8,6 +8,7 @@
 
 # Choose between private cloud, public cloud, and hybird cloud
 
+![terms](https://azurecomcdn.azureedge.net/cvt-16c145c41a93ed287a6ec67b040781e2cef7ea82efcc37c0bef3aa316179ec59/images/page/overview/what-is-saas/what-is-saas.png)
 
 # Applying Cloud step-by-step
 
