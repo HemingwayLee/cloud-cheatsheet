@@ -16,7 +16,8 @@
 # Difficulties of migrating current projects to the cloud 
 * infrastructure is different
   * connection to database services or azure file system
-  * installing and setting up the environment of a VM on the cloud
+  * installing and setting up the environment of services on the cloud
+  * change the existing code to be stateless
 
 # Applying cloud step-by-step
 * Empty project
