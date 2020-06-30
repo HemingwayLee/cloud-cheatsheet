@@ -32,4 +32,5 @@
 * Location is important because the data should stay in specific conuntry
 * Azure does not have data center in Taiwan (2020/07/01), AWS and GCP have
 
-
+# Ref
+https://www.slideshare.net/AmazonWebServices/panel-discussion-76989087  
