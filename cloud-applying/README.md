@@ -36,7 +36,7 @@
 https://www.slideshare.net/AmazonWebServices/panel-discussion-76989087  
 
 # Proposal
-## Overview:
+## Overview
 - Develop and deploy a PoC webapp project and a open data project to Azure
 
 ## Technology Summary
