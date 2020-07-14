@@ -37,10 +37,10 @@ https://www.slideshare.net/AmazonWebServices/panel-discussion-76989087
 
 # Proposal
 ## Overview
-- Develop and deploy a PoC webapp project and a open data project to Azure
+- Develop and deploy a PoC project (might not be webapp) and a open data project to Azure
 
 ## Technology Summary
-- Python, Django, Postgresql, ReactJs, Azure, Git, ...
+- Python, Django, Postgresql, ReactJs, Azure, Git, and others ...
 
 ## Return on Investment (ROI) Estimation
 - Cost
@@ -53,9 +53,11 @@ https://www.slideshare.net/AmazonWebServices/panel-discussion-76989087
    - Able to show/sell projects/source-code to other countries (Thai or Malaysia)
 
 ## Project Schedule
-- [4 weeks] Discover Requirements (e.g., What services we need on the cloud)
-- [4 weeks] Learn & use Azure services and then document them
-- [4 weeks] Develop a PoC project and a open data project on Azure
+- [1-2 weeks] Discover Requirements (e.g., What services we need on the cloud)
+  - Visit stakeholders
+  - Prioritize Azure services
+- [2-4 weeks] Learn & use Azure services and then document them
+- [2-4 weeks] Develop a PoC project and a open data project on Azure
 
 ## Resource Plan
 - PM & TechLead: me
