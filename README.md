@@ -19,6 +19,20 @@
 https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services  
 https://cloud.google.com/docs/compare/aws  
 
+## Commonly Used Services
+* VM
+  * for demo
+  * easy to setup
+  * Pay as you go (if we use ACR, we need to pay everyday)
+* Azure Container Registry (ACR)
+  * like private Docker Hub
+  * We can run containers in Azure Container Instance (ACI), Azure App Service, and Azure Kubernetes Service (AKS) 
+  * Easy to setup the same environment
+  * From maintenance point of view, limited packaged services reduces the attack surface overall
+* Storage Account
+* Azure Database for PostgreSQL
+* Azure Kubernetes Service
+
 ## Knowledge
 * `CloudFormation` (Template (in json) -> graph editor to show the graph -> building actual `S3`, `RDS`, `EC2`, ...)  
 * `Elastic Load Balancing` (Auto Scaling: Add more `EC`2 (in auto-scaling group) when peak traffic is coming)  
