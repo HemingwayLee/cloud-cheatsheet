@@ -12,7 +12,11 @@
 
 # Choose between private cloud, public cloud, and hybird cloud
 
-![terms](https://azurecomcdn.azureedge.net/cvt-16c145c41a93ed287a6ec67b040781e2cef7ea82efcc37c0bef3aa316179ec59/images/page/overview/what-is-saas/what-is-saas.png)
+![terms](https://i.imgur.com/Aj0HhN7.jpg)
+
+![pass](https://user-images.githubusercontent.com/8428372/90464008-51d40b00-e147-11ea-86a0-a5f5a175e050.png)
+
+* Most of services on Azure are PasS and IaaS
 
 # Difficulties of using cloud
 * Services are not familiar
