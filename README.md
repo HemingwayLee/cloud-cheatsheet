@@ -3,17 +3,21 @@
 ## Comparison
 | AWS | Azure | Google Cloud |
 | --- | --- | --- |
-| EC2 | Virtual Machines,Compute Engine |
+| EC2 | Virtual Machines | Compute Engine |
 | ECS | Azure Container Service (ACS) |  | 
-| EC2 Container Registry | Azure Container Registry |  | 
-| EKS | Azure Kubernetes Service (AKS) |  | 
-| Lambda | Azure Functions |  | 
-| AWS Auto Scaling | Virtual Machine Scale Sets |  | 
-| S3 | Azure Storage Account |  | 
-| RDS | SQL Database (or Azure Database for PostgreSQL) |  |   
-| DynamoDB | Cosmos DB |  | 
-| ElastiCache | Azure Redis Cache |  | 
-| AWS CLI | Azure CLI |  | 
+| EC2 Container Registry | Azure Container Registry (ACR) | Container Registry | 
+| EKS | Azure Kubernetes Service (AKS) | Google Kubernetes Engine | 
+| Lambda | Azure Functions | Cloud Functions | 
+| AWS Auto Scaling | Virtual Machine Scale Sets | Managed instance groups (MIGs) | 
+| S3 | Azure Storage Account | Cloud Storage | 
+| RDS | SQL Database (or Azure Database for PostgreSQL) | Cloud SQL |   
+| DynamoDB | Cosmos DB | Cloud Bigtable | 
+| ElastiCache | Azure Redis Cache | Memorystore | 
+| AWS CLI | Azure CLI | unified CLI | 
+
+### Comparison
+https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services  
+https://cloud.google.com/docs/compare/aws  
 
 ## Knowledge
 * `CloudFormation` (Template (in json) -> graph editor to show the graph -> building actual `S3`, `RDS`, `EC2`, ...)  
@@ -125,6 +129,3 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specia
 
 ## State of DevOps
 https://services.google.com/fh/files/misc/state-of-devops-2019.pdf
-
-## Ref
-https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services
