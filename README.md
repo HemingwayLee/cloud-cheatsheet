@@ -1,18 +1,19 @@
 # cloud-cheatsheet
 
 ## Comparison
-AWS, Azure, Google Cloud  
-EC2, Virtual Machines,Compute Engine  
-ECS, Azure Container Service (ACS),  
-EC2 Container Registry, Azure Container Registry,  
-EKS, Azure Kubernetes Service (AKS),  
-Lambda, Azure Functions,  
-AWS Auto Scaling, Virtual Machine Scale Sets,  
-S3, Azure Storage Account,  
-RDS, SQL Database (or Azure Database for PostgreSQL),  
-DynamoDB, Cosmos DB,  
-ElastiCache, Azure Redis Cache,  
-AWS CLI, Azure CLI
+| AWS | Azure | Google Cloud |
+| --- | --- | --- |
+| EC2 | Virtual Machines,Compute Engine |
+| ECS | Azure Container Service (ACS) |  | 
+| EC2 Container Registry | Azure Container Registry |  | 
+| EKS | Azure Kubernetes Service (AKS) |  | 
+| Lambda | Azure Functions |  | 
+| AWS Auto Scaling | Virtual Machine Scale Sets |  | 
+| S3 | Azure Storage Account |  | 
+| RDS | SQL Database (or Azure Database for PostgreSQL) |  |   
+| DynamoDB | Cosmos DB |  | 
+| ElastiCache | Azure Redis Cache |  | 
+| AWS CLI | Azure CLI |  | 
 
 ## Knowledge
 * `CloudFormation` (Template (in json) -> graph editor to show the graph -> building actual `S3`, `RDS`, `EC2`, ...)  
