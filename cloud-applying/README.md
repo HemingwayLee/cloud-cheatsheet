@@ -1,6 +1,10 @@
 # Why we need the cloud
 * Reduce the cost of maintaining Hardware & Software & IT related stuff
   * VM services are easier to use/setup/deploy/snaphot/update/rollback
+    * Bs-series: low-cost solution
+    * Fsv2: Compute optimized
+    * Dv3: general purpose
+    * Ev3: Memory optimized
   * Monitoring services is easier (e.g., charts/reports/status)
   * Easier to do Disaster recovery (DR) and Replication
 
