@@ -30,7 +30,7 @@ https://cloud.google.com/docs/compare/aws
   * Easy to setup the same environment
   * From maintenance point of view, limited packaged services reduces the attack surface overall
 * Storage Account
-* Azure Database for PostgreSQL
+* [Azure Database for PostgreSQL](https://github.com/HemingwayLee/cloud-cheatsheet/tree/master/postgresql)
 * Azure Kubernetes Service
 
 ## Knowledge
