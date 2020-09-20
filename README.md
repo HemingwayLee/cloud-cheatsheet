@@ -20,7 +20,7 @@ https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services
 https://cloud.google.com/docs/compare/aws  
 
 ## Commonly Used Services
-* VM
+* [VM](https://github.com/HemingwayLee/cloud-cheatsheet/tree/master/vm)
   * for demo
   * easy to setup
   * Pay as you go (if we use ACR, we need to pay everyday)
