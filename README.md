@@ -31,7 +31,7 @@ https://cloud.google.com/docs/compare/aws
   * From maintenance point of view, limited packaged services reduces the attack surface overall
 * Storage Account
 * [Azure Database for PostgreSQL](https://github.com/HemingwayLee/cloud-cheatsheet/tree/master/postgresql)
-* Azure Kubernetes Service
+* Azure Kubernetes Service (AKS)
 
 ## Knowledge
 * `CloudFormation` (Template (in json) -> graph editor to show the graph -> building actual `S3`, `RDS`, `EC2`, ...)  
