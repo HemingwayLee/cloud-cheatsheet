@@ -2,11 +2,6 @@
 
 # Note
 ## Azure
-* show secret in azure devops
-```
-echo $(acr.secret)
-```
-
 * deployment
 ```
 az container create --resource-group lee-testing --name lee-tesseract-$(Release.AttemptNumber) --registry-username leeTestingRegistry --registry-password $(acr.secret) --image leetestingresigtry.azurecr.io/finetuning_tesseract:4150 --command-line "/bin/sh -c '/root/src/traintest.sh $(param.path) $(param.lang)'" --cpu $(acr.cpu) --memory $(acr.memory) --restart-policy Never
@@ -24,5 +19,11 @@ az container show --name lee-tesseract-15 --resource-group lee-testing | python 
   * fake training/testing data in local
   * name-based parameters in bash script
   * put secret into variable
+
+* get into aks environment
+```
+az login --tenant {tid}
+az aks get-credentials --resource-group tws --name aks-mydev --subscription {sid} --admin
+```
 
 
