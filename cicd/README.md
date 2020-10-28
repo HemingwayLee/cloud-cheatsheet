@@ -17,3 +17,12 @@ az container create --resource-group lee-testing --name lee-tesseract-$(Release.
 az container show --name lee-tesseract-15 --resource-group lee-testing | python -c "import sys, json; print(json.load(sys.stdin)['containers'][0]['instanceView'])"
 ```
 
+* Important things for deployment
+  * log files
+  * budget for cloud, memory, cpu
+  * checker for bash script
+  * fake training/testing data in local
+  * name-based parameters in bash script
+  * put secret into variable
+
+
