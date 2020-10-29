@@ -103,6 +103,7 @@ ssh -F /dev/null <user>@<ip>
 https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specialized-portal  
 
 ## Note
+* There are some services only exist in specific region (e.g., NC series VM in US)
 
 ### Azure DevOps
 * `Azure DevOps` is better than `gitlab` + `gitlab-ci`
