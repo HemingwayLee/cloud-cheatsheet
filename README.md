@@ -5,7 +5,7 @@
 | --- | --- | --- |
 | EC2 | Virtual Machines | Compute Engine |
 | ECS | Azure Container Service (ACS) |  | 
-| EC2 Container Registry | Azure Container Registry (ACR) | Container Registry | 
+| EC2 Container Registry (ECR) | Azure Container Registry (ACR) | Container Registry | 
 | EKS | Azure Kubernetes Service (AKS) | Google Kubernetes Engine | 
 | Lambda | Azure Functions | Cloud Functions | 
 | AWS Auto Scaling | Virtual Machine Scale Sets | Managed instance groups (MIGs) | 
