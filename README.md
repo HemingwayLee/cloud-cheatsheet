@@ -35,7 +35,7 @@ https://cloud.google.com/docs/compare/aws
 
 ## Knowledge
 * `CloudFormation` (Template (in json) -> graph editor to show the graph -> building actual `S3`, `RDS`, `EC2`, ...)  
-* `Elastic Load Balancing` (Auto Scaling: Add more `EC`2 (in auto-scaling group) when peak traffic is coming)  
+* `Elastic Load Balancing` (Auto Scaling: Add more `EC2` (in auto-scaling group) when peak traffic is coming)  
 * `EC2` - AWS’s backbone, `ECS` is based on `EC2` (`ECS` is basically a logical grouping of `EC2` machines/instances)   
 * AWS `Lambda` (serverless), the money is paid by traffic 
   * Lambda functions are executed in the following orders
@@ -46,7 +46,12 @@ https://cloud.google.com/docs/compare/aws
     * Deleted if no other request in some amount of time
   * Disk size, memory, number of files are limited
   * Auto-scaling is supported 
-* `ElasticCache` contains Redis and Memcache (cache implementation)  
+* `ElasticCache` contains Redis and Memcache (cache implementation)
+* `ACR\AKS` is better than `ECR\EKS`
+* `ECS` has better supports on AWS, but using k8s is more flexibile
+* `RDS` vs `EC2` with database installed manually
+  * `RDS` is easier to use (backup, maintain, replicas, monitoring, ...)
+  * `EC2` is cheaper and it has more controls (e.g., OS, settings, ...)
 
 `Azure Container Instance` (`ACI`) is for running docker instances  
 `Azure Container Registry` (`ACR`) is for storing formatted images  
