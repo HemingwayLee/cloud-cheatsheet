@@ -5,7 +5,7 @@
 | --- | --- | --- |
 | EC2 | Virtual Machines | Compute Engine |
 | ECS | Azure Container Service (ACS) |  | 
-| EC2 Container Registry | Azure Container Registry (ACR) | Container Registry | 
+| EC2 Container Registry (ECR) | Azure Container Registry (ACR) | Container Registry | 
 | EKS | Azure Kubernetes Service (AKS) | Google Kubernetes Engine | 
 | Lambda | Azure Functions | Cloud Functions | 
 | AWS Auto Scaling | Virtual Machine Scale Sets | Managed instance groups (MIGs) | 
@@ -108,6 +108,7 @@ ssh -F /dev/null <user>@<ip>
 https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specialized-portal  
 
 ## Note
+* There are some services only exist in specific region (e.g., NC series VM in US)
 
 ### Azure DevOps
 * `Azure DevOps` is better than `gitlab` + `gitlab-ci`
