@@ -67,14 +67,6 @@ https://www.slideshare.net/AmazonWebServices/panel-discussion-76989087
 - [2-4 weeks] Learn & use Azure services and then document them
 - [2-4 weeks] Develop a PoC project and a open data project on Azure
 
-## Resource Plan
-- PM & TechLead: me
-- 2 junior developers (frontend & backend)
-- 1 junior data scientist
-
-## Stakeholders
-- TDB
-
 ## Deliverable List
 - Azure DevOps git repos
   - Azure DevOps (PoC webapp project and open data project) -> CI\CD -> VM and AKS (global or Japan)
