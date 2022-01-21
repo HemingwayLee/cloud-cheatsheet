@@ -140,6 +140,8 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specia
 #### Run jupyter note on azure
 #### AutoML
 
+#### Kafka
+
 # Private Cloud
 * A lot of company use `OpenStack`
 
