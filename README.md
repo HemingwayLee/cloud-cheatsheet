@@ -137,10 +137,7 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specia
 
 ### Azure Machine Learning Service Workshop
 
-#### Run jupyter note on azure
 #### AutoML
-
-#### Kafka
 
 # Private Cloud
 * A lot of company use `OpenStack`
