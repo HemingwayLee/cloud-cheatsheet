@@ -8,3 +8,7 @@ which aws
 aws --version
 ```
 
+## Config
+* The credentials and config file are updated when you run the command `aws configure`
+  * The config file is located at `~/.aws/config`
+  * The credentials file is located at `~/.aws/credentials`
