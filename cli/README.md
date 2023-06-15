@@ -17,5 +17,5 @@ aws --version
 * Change the `AWS account access keys` in `~/.aws/credentials` files
 
 ## Keys
-* `AWS account access keys`: If you forget your account access keys, you can create new access keys without disabling the existing access keys. If you are not using the existing keys, you can delete those
+* `AWS account access keys`: If you forget your account access keys, you can [create new access keys](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html) without disabling the existing access keys. If you are not using the existing keys, you can delete those
 
