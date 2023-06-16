@@ -19,3 +19,21 @@ aws --version
 ## Keys
 * `AWS account access keys`: If you forget your account access keys, you can [create new access keys](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html) without disabling the existing access keys. If you are not using the existing keys, you can delete those
 
+### Lost old .pem key
+* Create a new .pem key file
+  * `chmod 400 <new_pem_key.pem>`
+  * Get the public key part of the new .pem key
+```
+ssh-keygen -f <new_pem_key.pem> -y | pbcopy
+```
+
+  * Or, save to a .pem.pub file
+```
+ssh-keygen -f private.pem -y > public.pub
+```
+
+* Connect to EC2 from AWS console
+* modify `~/.ssh/authorized_keys`
+* paste the public key part of the new .pem key
+* `ssh -i ~/.ssh/<new_pem_key.pem> <user>@<ip>`
+
