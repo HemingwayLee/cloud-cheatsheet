@@ -33,6 +33,9 @@ ssh-keygen -f private.pem -y > public.pub
 ```
 
 * Connect to EC2 from AWS console
+![ec2](https://github.com/HemingwayLee/cloud-cheatsheet/assets/8428372/034ecf25-c5d9-4f77-95e1-51137787bfdc)
+
+
 * modify `~/.ssh/authorized_keys`
 * paste the public key part of the new .pem key
 * `ssh -i ~/.ssh/<new_pem_key.pem> <user>@<ip>`
