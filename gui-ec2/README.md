@@ -46,6 +46,8 @@ ssh -i <your pem file> ubuntu@ec2–18–140–169–22.ap-southeast-1.compute.a
 
 * On the mac, use the Screen Sharing client (in `Finder's` `Go` menu, click `Connect to Server`, then enter the address `vnc://192.168.0.6`
 
+![vnc](https://github.com/HemingwayLee/cloud-cheatsheet/assets/8428372/a2777259-533d-4605-a6e7-87093fa24777)
+
 
 ## Check how many vnc servers are running
 ```
