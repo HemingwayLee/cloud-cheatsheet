@@ -34,7 +34,9 @@ https://cloud.google.com/docs/compare/aws
 * Azure Kubernetes Service (AKS)
 
 ## Knowledge
-* `CloudFormation` (Template (in json) -> graph editor to show the graph -> building actual `S3`, `RDS`, `EC2`, ...)  
+* `CloudFormation` (Template (in json) -> graph editor to show the graph -> building actual `S3`, `RDS`, `EC2`, ...)
+  * `AWS Cloud Development Kit` (AWS CDK) is better solution for now
+  * `terraform` can do the similar thing and it is cross platform
 * `Elastic Load Balancing` (Auto Scaling: Add more `EC2` (in auto-scaling group) when peak traffic is coming)  
 * `EC2` - AWS’s backbone, `ECS` is based on `EC2` (`ECS` is basically a logical grouping of `EC2` machines/instances)   
 * AWS `Lambda` (serverless), the money is paid by traffic 
